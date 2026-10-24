@@ -1,5 +1,5 @@
 import React from 'react';
-import { Cake, MapPin, Phone, Mail, Clock, Heart } from 'lucide-react';
+import { Cake, MapPin, Phone, Mail, Clock, Heart, Camera, Users } from 'lucide-react';
 import { SHOP_CONFIG, NAV_LINKS, getWhatsAppLink } from '../data/bakeryData';
 
 export default function Footer({ onOpenOrderModal }) {
@@ -41,7 +41,7 @@ export default function Footer({ onOpenOrderModal }) {
                 aria-label="Sweet Crumbs Instagram (Placeholder)"
                 title="Follow us on Instagram"
               >
-                <Instagram className="w-4 h-4" />
+                <Camera className="w-4 h-4" />
               </a>
 
               <a
@@ -52,7 +52,7 @@ export default function Footer({ onOpenOrderModal }) {
                 aria-label="Sweet Crumbs Facebook (Placeholder)"
                 title="Like us on Facebook"
               >
-                <Facebook className="w-4 h-4" />
+                <Users className="w-4 h-4" />
               </a>
             </div>
           </div>
